@@ -27,7 +27,6 @@ function App() {
   }, []);
 
   if (!tenant) return <div>Invalid or missing tenant.</div>;
-
   return (
     <div style={{ backgroundColor: tenant.primaryColor, padding: "1rem" }}>
       <img src={tenant.logo} alt="Logo" style={{ height: "50px" }} />
